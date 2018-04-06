@@ -18,6 +18,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <connection>scm:git:https://git.soma.salesforce.com/salli/maven-release-plugin-example.git</connection>
+        <url>https://git.soma.salesforce.com/salli/maven-release-plugin-example</url>
+        <developerConnection>scm:git:https://git.soma.salesforce.com/salli/maven-release-plugin-example.git</developerConnection>
+    </scm>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
