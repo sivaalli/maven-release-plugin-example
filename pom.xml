@@ -25,9 +25,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:https://git.soma.salesforce.com/salli/maven-release-plugin-example.git</connection>
-        <url>https://git.soma.salesforce.com/salli/maven-release-plugin-example</url>
-        <developerConnection>scm:git:https://git.soma.salesforce.com/salli/maven-release-plugin-example.git</developerConnection>
+        <connection>scm:git:https://github.com/sivaalli/maven-release-plugin-example.git</connection>
+        <url>https://github.com/sivaalli/maven-release-plugin-example</url>
+        <developerConnection>scm:git:https://github.com/sivaalli/maven-release-plugin-example.git</developerConnection>
       <tag>demo-0.0.1</tag>
   </scm>
 
